@@ -1,10 +1,9 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(135deg, #24243e 60%, #000 100%);
+    background: linear-gradient(135deg, #eaf6ff 60%, #f2f2f2 100%);
     min-height: 100vh;
 }
-
 
 #container {
     color: #444;
@@ -59,3 +58,20 @@ body {
 
 @keyframes show {
     0% {margin-top:-294px;}
+    5% {margin-top:-196px;}
+    33% {margin-top:-196px;}
+    38% {margin-top:-98px;}
+    66% {margin-top:-98px;}
+    71% {margin-top:0px;}
+    99.99% {margin-top:0px;}
+    100% {margin-top:-294px;}
+}
+
+p {
+    position: fixed;
+    width: 100%;
+    bottom: 30px;
+    font-size: 13px;
+    color: #999;
+    text-align: center;
+}
